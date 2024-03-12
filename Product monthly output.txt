@@ -1,0 +1,8 @@
+Product No. Monthly output
+1	1000
+2	100
+3	50
+4	200
+5	500
+6	500
+7	600
