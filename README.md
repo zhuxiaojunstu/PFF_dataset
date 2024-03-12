@@ -4,16 +4,16 @@
 
 The Product family formation problem dataset is composed of two files in ".txt" file format.
 
-“PPGraph_Operation.txt” describes the relevant information of the operation.
+“Product monthly output.txt” describes the monthly output of the seven products.
 The information in each line is as follows：
 ```yaml
-<number of operation> <name of operation> <name of first resource>(process time in `s`) <name of second resource>(process time in `s`)……
+<product No.> <monthly output>
 ```
 
-“PPGraph_Precedence.txt” describes the relevant information of the operation precedence.That represents a process precedence, indicating that the first operation is better than the second operation.
+“Product-process-Resource data.txt” describes all operationes of the seven products and their corresponding alternative resource names.
 The information in each line is as follows：
 ```yaml
-<first operation> <second operation>.
+<operation No.> <first alternative resource name> <second alternative resource name> ……
 ```
 
 ## License
